@@ -10,7 +10,7 @@ A minimal C-hosted runtime engine for executing modular Lua applications and gam
 
 ```text
 .
-├── Man.c               # Primary init
+├── Main.c              # Primary C engine source
 ├── Main.lua            # Primary engine entry script
 └── Helpers/
     └── Ticker.lua      # Dynamic module scanner and on_tick manager
